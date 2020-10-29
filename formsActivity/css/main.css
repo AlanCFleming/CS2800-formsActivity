@@ -1,0 +1,37 @@
+body {
+	width:400px;
+	margin-left:40px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+input[type=reset] {
+	color: green;
+	margin: 20px;
+}
+
+input[type=submit] {
+	color: blue;
+	margin: 20px;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type=radio] {
+	margin-left: 50px;
+	margin-right: 10px;
+}
+
+input[type=text] {
+	margin-bottom: 30px;
+}
+
+select {
+	display: block;
+	margin: 30px auto 30px auto;
+}

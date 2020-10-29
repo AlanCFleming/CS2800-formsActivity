@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	  <title>Form Practice</title>
+	  <meta name="description" content="various input elements">
+	  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">    
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Information</h1>
+    </header>
+	
+    <main>
+    
+      <form action="confirm.html">
+	<label for="name">Enter your name:</label>
+	<input type="text" name="student_name" id="name"><br>
+       
+	<fieldset>
+		<legend>Class Rank</legend>
+		
+		<input type="radio" name="class_rank" value="Freshman" id="freshman">
+		<label for="freshman">Freshman</label><br>
+		<input type="radio" name="class_rank" value="Sophomore" id="sophmore">
+		<label for="sophomore">Sophomore</label><br>
+		<input type="radio" name="class_rank" value="Junior" id="junior">
+		<label for="junior">Junior</label><br>
+		<input type="radio" name="class_rank" value="Senior" id="senior">
+		<label for="senior">Senior</label><br>
+	</fieldset>	
+	
+	
+	<select name="credit_hours">
+		<optgroup label="Credit Hours">
+			<option value="range1">0-10</option>
+			<option value="range2">11-20</option>
+			<option value="range3">21-30</option>
+			<option value="range4">32-40</option>
+			<option value="range5">41-50</option>
+			<option value="range6">51-60</option>
+			<option value="range7">61-70</option>
+			<option value="range8">71-80</option>
+			<option value="range9">81-90</option>
+			<option value="range10">91-100</option>
+			<option value="range11">101-110</option>
+			<option value="range12">111-120</option>
+			<option value="range13">121+</option>
+		</optgroup>
+	</select>
+
+        <input type="submit" value="Process Info">
+	<input type="reset" value="Clear Form">
+        
+      </form>
+      
+    </main>
+  </body>
+
+</html>
